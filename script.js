@@ -1,21 +1,21 @@
 let title = 'Мой первый Js';
-console.log(title);
+console.log(typeof title);
 let screens = 'Простые, сложные, интерактивные';
-console.log(screens);
+console.log(screens.toLowerCase().split());
 let screenPrice = 11125;
-console.log(screenPrice);
+console.log('Стоимость верстки экранов', screenPrice, 'рублей.');
 
 let rollback = 74;
 console.log(rollback);
 
 let fullPrice = 2800000 ;
-console.log(fullPrice);
+console.log(typeof fullPrice);
 
 let adaptive = true;
-console.log(adaptive);
+console.log(typeof adaptive);
 
-
-alert("It's me");
-console.log("Первый вовод в консоль");
-console.log("123");
+console.log('Процент отката посреднику за работу',(fullPrice*(rollback/100)));
+// alert("It's me");
+// console.log("Первый вовод в консоль");
+// console.log("123");
 
