@@ -6,3 +6,5 @@ let fullPrice;
 let adaptive;
 
 alert("It's me");
+
+console.log("Первый вовод в консоль");
